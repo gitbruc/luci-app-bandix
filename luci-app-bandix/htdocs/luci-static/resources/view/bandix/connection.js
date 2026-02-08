@@ -594,14 +594,14 @@ return view.extend({
             ]);
             container.appendChild(alertDiv);
 
-            var settingsCard = E('div', { 'class': 'cbi-section' }, [
-                E('div', { 'style': 'text-align: center; padding: 16px;' }, [
-                    E('a', {
-                        'href': '/cgi-bin/luci/admin/network/bandix/settings',
-                        'class': 'btn btn-primary'
-                    }, _('Go to Settings'))
-                ])
-            ]);
+                    var settingsCard = E('div', { 'class': 'cbi-section' }, [
+                        E('div', { 'style': 'text-align: center; padding: 16px;' }, [
+                            E('a', {
+                                'href': '/cgi-bin/luci/admin/control/bandix/settings',
+                                'class': 'btn btn-primary'
+                            }, _('Go to Settings'))
+                        ])
+                    ]);
             container.appendChild(settingsCard);
             return container;
         }

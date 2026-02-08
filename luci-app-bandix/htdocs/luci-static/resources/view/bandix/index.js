@@ -7716,7 +7716,7 @@ return view.extend({
                             updateBadge.style.display = 'inline-block';
                             // 点击跳转到设置页面
                             updateBadge.onclick = function () {
-                                window.location.href = '/cgi-bin/luci/admin/network/bandix/settings';
+                                window.location.href = '/cgi-bin/luci/admin/control/bandix/settings';
                             };
                             updateBadge.title = _('Update available, click to go to settings');
                         } else {
